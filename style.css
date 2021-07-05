@@ -5,16 +5,17 @@ body{
 h1{
     font-size: 50px;
 }
-#orange-color{
+.orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .half{
     width: 50%;
     padding-left: 5%;
+
 }
 .half img{
     width: 80%;
@@ -27,7 +28,7 @@ section{
     font-weight: 700px;
     color: white;
 }
-#top{
+.top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
@@ -35,4 +36,7 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+footer p{
+    text-align: center;
 }
